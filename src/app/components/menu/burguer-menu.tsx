@@ -31,10 +31,10 @@ export function BurguerMenu() {
       </button>
 
       {isOpen && (
-        <div className="fixed w-full h-full top-0 left-0 z-10">
+        <div className="fixed w-full h-full top-0 left-0 z-20">
           <div
             onClick={onClose}
-            className="absolute w-full h-full top-0 left-0 z-20 bg-black/15 backdrop-blur-sm"
+            className="absolute w-full h-full top-0 left-0 z-30 bg-black/15 backdrop-blur-sm"
           ></div>
           <nav
             className={` ${

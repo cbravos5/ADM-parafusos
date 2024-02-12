@@ -8,11 +8,12 @@ export function LogoContainer({ children }: PropsWithChildren) {
 
   return (
     <div
-      className="w-full md:w-[calc(50%+20px)] md:-mr-[72px] z-10 bg-main-1 grid place-items-center"
+      className="w-full py-8  md:w-[calc(40%+20px)] md:-mr-[80px] z-10 grid place-items-center bg-cover"
       style={{
         clipPath: isSmallScreen
           ? ''
-          : 'polygon(0 0,calc(100% - 72px) 0, 100% 100%, 0 100%)',
+          : 'polygon(0 0,calc(100% - 80px) 0, 100% 100%, 0 100%)',
+          backgroundImage: `url(/bright-hex-backgrounds-networking.jpg)`
       }}
     >
       {children}
