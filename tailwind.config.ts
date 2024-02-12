@@ -20,11 +20,6 @@ const config: Config = {
           '3': '#799dbe',
         },
       },
-      animation: {
-        'gradient-x': 'gradient-x 1s ease forwards',
-        'gradient-y': 'gradient-y 1s ease forwards',
-        'gradient-xy': 'gradient-xy 1s ease forwards',
-      },
     },
   },
   plugins: [require('tailwindcss-animate')],

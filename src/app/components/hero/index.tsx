@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import { Button } from '../button';
 import { LogoContainer } from './logo-container';
+import logo from '@/app/assets/LOGO-ADM-branca.png';
 
 const MAIN_TITLE_CLASSES = `animate-in fade-in-0 duration-1000
                             delay-500 fill-mode-both text-white
@@ -18,11 +20,14 @@ export function Hero() {
   return (
     <section className="w-full md:h-[calc(100%-88px)] flex flex-col md:flex-row">
       <LogoContainer>
-        <img
-          src="/LOGO-ADM-branca.png"
-          alt="Logo ADM"
-          className="w-[clamp(150px,65%,600px)] animate-in fade-in-0 delay-150 duration-1000 fill-mode-both"
-        />
+        <div className="relative aspect-[96/64] w-[clamp(150px,65%,600px)] animate-in fade-in-0 delay-150 duration-1000 fill-mode-both">
+          <Image
+            src={logo.src}
+            alt="Logo ADM"
+            fill
+            className="object-contain"
+          />
+        </div>
       </LogoContainer>
       <div
         className={TITLE_WRAPPER_CLASSES}
