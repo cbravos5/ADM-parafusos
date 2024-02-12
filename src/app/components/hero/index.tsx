@@ -1,3 +1,4 @@
+import { Button } from '../button';
 import { LogoContainer } from './logo-container';
 
 const MAIN_TITLE_CLASSES = `animate-in fade-in-0 duration-1000
@@ -37,6 +38,12 @@ export function Hero() {
             <h1 className={SUBTITLE_CLASSES}>PARA EMPRESAS EXIGENTES</h1>
             <div className="h-0.5 w-1/5 bg-white"></div>
           </div>
+
+          <Button className='mx-auto mt-5 animate-[enter_1000ms_ease_1000ms_forwards] fade-in-0 fill-mode-both'>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5541988854317&text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento.">
+              SOLICITE SEU ORÇAMENTO AGORA!
+            </a>
+          </Button>
         </div>
       </div>
     </section>

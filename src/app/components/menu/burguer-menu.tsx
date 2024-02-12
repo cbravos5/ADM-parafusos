@@ -47,7 +47,7 @@ export function BurguerMenu() {
 
             <ul className="flex flex-col justify-center items-center h-full text-center space-y-5 font-bold text-main-1 whitespace-nowrap">
               {MENU_ITEMS.map((props) => (
-                <MenuItem {...props} />
+                <MenuItem {...props} key={props.label} />
               ))}
             </ul>
           </nav>

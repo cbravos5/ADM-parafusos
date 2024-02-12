@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -17,11 +17,16 @@ const config: Config = {
         main: {
           '1': '#01317b',
           '2': '#2874a7',
-          '3': '#799dbe'
+          '3': '#799dbe',
         },
-      }
+      },
+      animation: {
+        'gradient-x': 'gradient-x 1s ease forwards',
+        'gradient-y': 'gradient-y 1s ease forwards',
+        'gradient-xy': 'gradient-xy 1s ease forwards',
+      },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-}
-export default config
+  plugins: [require('tailwindcss-animate')],
+};
+export default config;

@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { useMediaQuery } from '@uidotdev/usehooks';
 import { PropsWithChildren } from 'react';
