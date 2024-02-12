@@ -14,7 +14,7 @@ const SUBTITLE_CLASSES = `w-3/5 text-white font-semibold text-xl
 
 const TITLE_WRAPPER_CLASSES = `w-full h-full md:w-[calc(60%+72px)]
                                px-2 py-12 md:pl-20 bg-cover bg-center
-                               grid place-items-center md:px-12`;
+                               grid place-items-center md:px-12 drop-shadow-[-3px_0_3px_rgba(0,0,0,0.5)]`;
 
 export function Hero() {
   return (
