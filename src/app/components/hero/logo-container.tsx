@@ -1,7 +1,7 @@
 'use client'
 
-import { useMediaQuery } from '@uidotdev/usehooks';
 import { PropsWithChildren } from 'react';
+import { useMediaQuery } from 'usehooks-ts';
 
 export function LogoContainer({ children }: PropsWithChildren) {
   const isSmallScreen = useMediaQuery('(max-width: 768px)');
