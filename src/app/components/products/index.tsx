@@ -19,9 +19,14 @@ const PRODUCTS_LIST = [
   { text: 'FERRAMENTAS', image: ferramentas.src },
 ];
 
+const SECTION_CLASSES = `animate-[enter_1000ms_ease_1200ms_forwards]
+                         fade-in-0 fill-mode-both w-full px-4 py-10
+                         md:p-12 flex flex-col justify-center gap-5
+                         max-w-7xl mx-auto`;
+
 export function Products() {
   return (
-    <section className="animate-[enter_1000ms_ease_1200ms_forwards] fade-in-0 fill-mode-both w-full px-4 py-10 md:p-12 flex flex-col justify-center gap-5 max-w-7xl mx-auto">
+    <section className={SECTION_CLASSES}>
       <h1 className="text-xl text-center lg:text-left md:text-3xl font-bold text-main-1">
         NOSSOS PRODUTOS
       </h1>
