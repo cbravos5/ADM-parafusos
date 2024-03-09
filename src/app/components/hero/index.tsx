@@ -14,7 +14,7 @@ const SUBTITLE_CLASSES = `w-3/5 text-white font-semibold text-xl
 
 const TITLE_WRAPPER_CLASSES = `w-full h-full md:w-[calc(60%+72px)]
                                px-2 py-12 md:pl-20 bg-cover bg-center
-                               grid place-items-center md:px-12 drop-shadow-[-3px_0_3px_rgba(0,0,0,0.5)]`;
+                               grid place-items-center md:px-12`;
 
 export function Hero() {
   return (
@@ -44,8 +44,8 @@ export function Hero() {
             <div className="h-0.5 w-1/5 bg-white"></div>
           </div>
 
-          <Button className='mx-auto mt-5 animate-[enter_1000ms_ease_1000ms_forwards] fade-in-0 fill-mode-both'>
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=5541988854317&text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento.">
+          <Button color="white" className='mx-auto mt-5 animate-[enter_1000ms_ease_1000ms_forwards] fade-in-0 fill-mode-both'>
+            <a target="_blank" href="https://wa.me/5541999939480?text=Ol%C3%A1%2C+acessei+o+site+e+preciso+falar+com+um+vendedor.">
               SOLICITE SEU ORÇAMENTO AGORA!
             </a>
           </Button>
