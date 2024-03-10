@@ -3,7 +3,7 @@ import Image from 'next/image';
 import bgImage from '@/app/assets/PARAFUSOS-ESPECIAIS.jpg';
 import { Button } from '../button';
 
-export default function SpecialProjects() {
+export function SpecialProjects() {
   return (
     <section className="w-full flex flex-col lg:flex-row justify-center lg:h-[85%] border-t-2 border-main-1">
       <div className="lg:w-3/5 flex justify-center items-center px-4 py-10 md:p-12 h-full bg-gradient-to-r from-white to-[#f2f3f7]">
