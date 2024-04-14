@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { Hero } from './components/hero';
-import { Menu } from './components/menu/menu';
-import { Products } from './components/products';
-import { SpecialProjects } from './components/special-projects';
+import { Contact } from "./sections/contact";
+import { Hero } from "./sections/hero";
+import { Menu } from "./sections/menu/menu";
+import { Products } from "./sections/products";
+import { SpecialProjects } from "./sections/special-projects";
 
 export default function Home() {
   return (
@@ -14,6 +14,8 @@ export default function Home() {
       <Products />
 
       <SpecialProjects />
+
+      <Contact />
      
     </main>
   );

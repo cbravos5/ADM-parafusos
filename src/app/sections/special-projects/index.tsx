@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import bgImage from '@/app/assets/PARAFUSOS-ESPECIAIS.jpg';
-import { Button } from '../button';
+import { Button } from '@/app/components/button';
 
 export function SpecialProjects() {
   return (
@@ -39,7 +39,7 @@ export function SpecialProjects() {
           </div>
         </div>
       </div>
-      <div className="lg:w-2/5 relative h-96 lg:h-auto">
+      <div className="lg:w-2/5 relative h-64 sm:h-96 lg:h-auto">
         <Image
           src={bgImage}
           fill
