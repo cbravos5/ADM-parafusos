@@ -11,7 +11,7 @@ import ansi from '@/app/assets/ansi.svg';
 import astm from '@/app/assets/astm.svg';
 import din from '@/app/assets/din.svg';
 import iso from '@/app/assets/iso.svg';
-import { Button } from '../button';
+import { Button } from '@/app/components/button';
 
 const PRODUCTS_LIST = [
   { text: 'PARAFUSOS', image: parafusos.src },

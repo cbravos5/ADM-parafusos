@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import bgImage from '@/app/assets/PARAFUSOS-ESPECIAIS.jpg';
-import { Button } from '../button';
+import { Button } from '@/app/components/button';
 
 export function SpecialProjects() {
   return (

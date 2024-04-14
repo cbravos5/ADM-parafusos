@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { Button } from '../button';
 import { LogoContainer } from './logo-container';
 import logo from '@/app/assets/LOGO-ADM-branca.png';
+import { Button } from '@/app/components/button';
 
 const MAIN_TITLE_CLASSES = `animate-in fade-in-0 duration-1000
                             delay-500 fill-mode-both text-white
