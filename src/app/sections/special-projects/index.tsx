@@ -39,7 +39,7 @@ export function SpecialProjects() {
           </div>
         </div>
       </div>
-      <div className="lg:w-2/5 relative h-96 lg:h-auto">
+      <div className="lg:w-2/5 relative h-64 sm:h-96 lg:h-auto">
         <Image
           src={bgImage}
           fill
