@@ -5,7 +5,7 @@ import { Button } from '@/app/components/button';
 
 export function SpecialProjects() {
   return (
-    <section className="w-full flex flex-col lg:flex-row justify-center lg:h-[85%] border-t-2 border-main-1">
+    <section id="projetos" className="w-full flex flex-col lg:flex-row justify-center lg:h-[85vh] border-t-2 border-main-1">
       <div className="lg:w-3/5 flex justify-center items-center px-4 py-10 md:p-12 h-full bg-gradient-to-r from-white to-[#f2f3f7]">
         <div className="max-w-3xl mx-auto lg:max-w-2xl lg:ml-auto lg:mr-5">
           <h1 className="text-center mx-auto lg:mx-0 lg:text-left font-bold text-2xl md:text-4xl text-main-1 max-w-xl">

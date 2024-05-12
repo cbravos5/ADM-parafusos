@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { MENU_ITEMS } from './MENU-ITEMS';
 import { MenuItem } from './menu-item';
 import { BurguerIcon } from './burguer-icon';
 import { CloseIcon } from './close-icon';
+import { MENU_ITEMS } from '@/app/constants';
 
 const animateIn = 'animate-in slide-in-from-right-full';
 const animateOut = 'animate-out slide-out-to-right-full';

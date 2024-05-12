@@ -18,7 +18,7 @@ const TITLE_WRAPPER_CLASSES = `w-full h-full md:w-[calc(60%+72px)]
 
 export function Hero() {
   return (
-    <section className="w-full md:h-[calc(100%-88px)] flex flex-col md:flex-row">
+    <section className="w-full md:h-[calc(100vh-88px)] flex flex-col md:flex-row">
       <LogoContainer>
         <div className="relative aspect-[96/64] w-[clamp(150px,65%,600px)] animate-in fade-in-0 delay-150 duration-1000 fill-mode-both">
           <Image
