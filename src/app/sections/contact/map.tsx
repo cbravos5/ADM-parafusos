@@ -2,7 +2,7 @@ import { MapPinIcon } from "@/app/components/icons/map-pin-icon";
 
 export function Map() {
   return (
-    <div className="w-full">
+    <div className="w-full lg:w-3/5">
       <div className="flex items-center gap-3 w-full">
         <h1 className="text-lg font-bold text-main-2 text-nowrap">
           VENHA NOS VISITAR!
@@ -11,7 +11,7 @@ export function Map() {
       </div>
 
       <div className="flex items-center gap-2 mt-3">
-        <MapPinIcon className="text-main-2 h-7 w-7" />
+        <MapPinIcon className="text-main-2 h-8 w-8" />
         <p className="md:text-lg">
           Rua Omar Raymundo Picheth, 1177 - Xaxim - Curitiba/PR
         </p>

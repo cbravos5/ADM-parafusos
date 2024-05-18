@@ -31,7 +31,7 @@ export function SpecialProjects() {
             <Button color="blue" className="max-w-lg mt-2">
               <a
                 target="_blank"
-                href="https://wa.me/5541999939480?text=Ol%C3%A1%2C+acessei+o+site+e+preciso+falar+com+um+vendedor."
+                href="https://wa.me/554135651010?text=Ol%C3%A1%2C+acessei+o+site+e+preciso+falar+com+um+vendedor."
               >
                 CONVERSE COM NOSSOS ESPECIALISTAS
               </a>

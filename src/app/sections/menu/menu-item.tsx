@@ -1,9 +1,10 @@
 type MenuItemProps = {
   path: string;
   label: string;
+  onClick?: () => void;
 }
 
-export function MenuItem({ path, label }: MenuItemProps) {
+export function MenuItem({ path, label, onClick }: MenuItemProps) {
   const MENU_ITEM_CLASSES = `relative focus-within:after:w-full focus-within:after:bg-main-3
                             after:transition-all hover:after:w-full after:left-1/2
                             after:-translate-x-1/2 hover:text-main-3 hover:after:bg-main-3
@@ -12,7 +13,7 @@ export function MenuItem({ path, label }: MenuItemProps) {
 
   return (
     <li className={MENU_ITEM_CLASSES}>
-      <a href={path} className="focus:text-main-3 transition">
+      <a onClick={onClick} href={path} className="focus:text-main-3 transition">
         {label}
       </a>
     </li>
