@@ -1,7 +1,7 @@
 type MenuItemProps = {
   path: string;
   label: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export function MenuItem({ path, label, onClick }: MenuItemProps) {
