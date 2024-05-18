@@ -3,6 +3,7 @@ import { Nunito_Sans } from 'next/font/google';
 import './styles/globals.css';
 import { Menu } from './sections/menu/menu';
 import { Footer } from './sections/footer';
+import { FloatingWpp } from './components/floating';
 
 const nunito = Nunito_Sans({ subsets: ['latin'] });
 
@@ -18,7 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="w-full h-full scroll-smooth">
-      <body className={nunito.className + ' w-full flex flex-col'}>
+      <body className={nunito.className + ' w-full flex flex-col relative'}>
+        <FloatingWpp />
         <Menu />
         {children}
         <Footer />
