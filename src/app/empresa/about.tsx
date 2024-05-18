@@ -21,7 +21,7 @@ export function About() {
             qualidade incontestável e um atendimento que supera expectativas
           </strong>
           . Fundada em 2001, nossa jornada é marcada pela busca incessante da{' '}
-          <strong>perfeição em cada parafuso e ferramenta</strong>
+          <strong>perfeição em cada parafuso e ferramenta</strong>{' '}
           que entregamos.
         </p>
         <div className="relative w-full sm:w-2/5 aspect-[924/712]">
