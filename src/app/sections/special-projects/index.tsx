@@ -12,7 +12,7 @@ export function SpecialProjects() {
             FABRICAÇÃO DE PARAFUSOS ESPECIAIS EM CURITIBA
           </h1>
           <p className="text-center leading-6 md:leading-7 lg:text-justify text-lg md:text-xl font-light text-main-1 mt-3">
-            Na vanguarda da fabricação de parafusos especiais, a ADM Parafusos
+            Na vanguarda da fabricação de parafusos especiais, a MDA Parafusos
             se destaca ao transformar visões em realidade. Com uma expertise que
             vai além do convencional, dedicamo-nos a desenvolver projetos
             customizados, moldados nos mais diversos materiais e formatos
@@ -43,7 +43,7 @@ export function SpecialProjects() {
         <Image
           src={bgImage}
           fill
-          objectPosition="left"
+          style={{ objectPosition: 'left' }}
           objectFit="cover"
           alt="Parafusos Especiais"
         />

@@ -1,4 +1,4 @@
-import fachada from '@/app/assets/ADM-fachada.jpg';
+import fachada from '@/app/assets/MDA-fachada.jpg';
 import Image from 'next/image';
 
 export function About() {
@@ -15,7 +15,7 @@ export function About() {
         className="flex gap-5 flex-col sm:flex-row "
       >
         <p className="text-lg text-main-1 text-justify sm:w-3/5 !leading-6">
-          Há mais de <strong>duas décadas</strong>, a ADM Parafusos tem moldado
+          Há mais de <strong>duas décadas</strong>, a MDA Parafusos tem moldado
           o cenário da fixação, oferecendo uma fusão impecável de{' '}
           <strong>
             qualidade incontestável e um atendimento que supera expectativas

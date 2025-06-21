@@ -1,7 +1,7 @@
 import { InstagramIcon } from '@/app/components/icons/instagram-icon';
 import { MailIcon } from '@/app/components/icons/mail-icon';
 import { PhoneIcon } from '@/app/components/icons/phone-icon';
-import logo from '@/app/assets/LOGO-ADM.png';
+import logo from '@/app/assets/LOGO.png';
 import Image from 'next/image';
 import { MENU_ITEMS } from '@/app/constants';
 import { MenuItem } from '../menu/menu-item';
@@ -17,7 +17,7 @@ export function Footer() {
           href="#"
           className="w-28 h-16 sm:w-32 sm:h-20 relative block shrink-0"
         >
-          <Image src={logo.src} alt="Logo ADM Parafusos" fill />
+          <Image src={logo.src} alt="Logo MDA Parafusos" fill />
         </a>
 
         <ul className="flex flex-col gap-2 text-sm font-bold whitespace-nowrap ">
@@ -36,16 +36,16 @@ export function Footer() {
           <li>
             <LinkIcon
               Icon={<InstagramIcon className="w-6 h-6" />}
-              text="@adm.parafusos"
-              href="https://www.instagram.com/adm.parafusos"
+              text="@mda.parafusos"
+              href="https://www.instagram.com/mda.parafusos"
               target="_blank"
             />
           </li>
           <li>
             <LinkIcon
               Icon={<MailIcon className="w-6 h-6" />}
-              text="admparafusos@terra.com.br"
-              href="mailto:admparafusos@terra.com.br"
+              text="mdaparafusos@terra.com.br"
+              href="mailto:mdaparafusos@terra.com.br"
               target="_blank"
             />
           </li>
@@ -61,7 +61,7 @@ export function Footer() {
       </div>
       <div className="w-full max-w-4xl my-3 h-[1px] bg-main-1"></div>
       <p className="text-[9px]">
-        Copyright © {currentYear} ADM PARAFUSOS. Todos os direitos reservados.
+        Copyright © {currentYear} MDA PARAFUSOS. Todos os direitos reservados.
       </p>
     </footer>
   );

@@ -24,15 +24,15 @@ export function Contact() {
             <LinkIcon
               Icon={<InstagramIcon className="w-7 h-7 lg:w-9 lg:h-9" />}
               className="text-lg lg:text-xl"
-              text="@adm.parafusos"
-              href="https://www.instagram.com/adm.parafusos"
+              text="@mda.parafusos"
+              href="https://www.instagram.com/mda.parafusos"
               target="_blank"
             />
             <LinkIcon
               Icon={<MailIcon className="w-7 h-7 lg:w-9 lg:h-9" />}
               className="text-lg lg:text-xl"
-              text="admparafusos@terra.com.br"
-              href="mailto:admparafusos@terra.com.br"
+              text="mdaparafusos@terra.com.br"
+              href="mailto:mdaparafusos@terra.com.br"
               target="_blank"
             />
             <LinkIcon
