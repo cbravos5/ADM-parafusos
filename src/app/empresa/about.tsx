@@ -1,4 +1,4 @@
-import fachada from '@/app/assets/MDA-fachada.jpg';
+import fachada from '@/app/assets/ADM-fachada.jpg';
 import Image from 'next/image';
 
 export function About() {
