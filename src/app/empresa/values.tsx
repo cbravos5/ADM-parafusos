@@ -19,7 +19,7 @@ export function Values() {
           img={missao.src}
           title="MISSÃO DE SOLUCIONAR"
           text="Nosso compromisso vai além de fornecer produtos; é sobre encontrar
-          soluções. A missão da ADM Parafusos é ser a resposta para as
+          soluções. A missão da MDA Parafusos é ser a resposta para as
           demandas de fixação, estabelecendo laços transparentes e
           comprometidos."
         />
@@ -36,7 +36,7 @@ export function Values() {
         <Card
           img={qualidade.src}
           title="CONECTE-SE COM A QUALIDADE"
-          text="Na ADM Parafusos, não estamos apenas no negócio de fixação; estamos no negócio de construir relações duradouras. Explore nossa linha de produtos e descubra como podemos ser a chave para suas necessidades de fixação. Seja bem-vindo a um mundo onde a excelência é a norma. Seu futuro fixado com qualidade começa aqui!"
+          text="Na MDA Parafusos, não estamos apenas no negócio de fixação; estamos no negócio de construir relações duradouras. Explore nossa linha de produtos e descubra como podemos ser a chave para suas necessidades de fixação. Seja bem-vindo a um mundo onde a excelência é a norma. Seu futuro fixado com qualidade começa aqui!"
           className="lg:w-[904px]"
         />
       </div>

@@ -39,19 +39,19 @@ export function Products() {
 
       <div className="flex flex-wrap gap-x-5 md:gap-x-10 justify-center max-w-3xl mx-auto w-full mt-5">
         <div className="w-20 h-20 md:w-28 md:h-28 relative">
-          <Image src={abnt.src} fill objectFit="contain" alt="ABNT" />
+          <Image src={abnt.src} fill style={{ objectFit: 'contain' }} alt="ABNT" />
         </div>
         <div className="w-20 h-20 md:w-28 md:h-28 relative">
-          <Image src={ansi.src} fill objectFit="contain" alt="ANSI" />
+          <Image src={ansi.src} fill style={{ objectFit: 'contain' }} alt="ANSI" />
         </div>
         <div className="w-20 h-20 md:w-28 md:h-28 relative">
-          <Image src={astm.src} fill objectFit="contain" alt="ASTM" />
+          <Image src={astm.src} fill style={{ objectFit: 'contain' }} alt="ASTM" />
         </div>
         <div className="w-20 h-20 md:w-28 md:h-28 relative">
-          <Image src={din.src} fill objectFit="contain" alt="DIN" />
+          <Image src={din.src} fill style={{ objectFit: 'contain' }} alt="DIN" />
         </div>
         <div className="w-20 h-20 md:w-28 md:h-28 relative">
-          <Image src={iso.src} fill objectFit="contain" alt="ISO" />
+          <Image src={iso.src} fill style={{ objectFit: 'contain' }} alt="ISO" />
         </div>
       </div>
 

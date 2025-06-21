@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { LogoContainer } from './logo-container';
-import logo from '@/app/assets/LOGO-ADM-branca.png';
+import logo from '@/app/assets/LOGO-branca.png';
 import { Button } from '@/app/components/button';
 
 const MAIN_TITLE_CLASSES = `animate-in fade-in-0 duration-1000
@@ -23,7 +23,7 @@ export function Hero() {
         <div className="relative aspect-[96/64] w-[clamp(150px,65%,600px)] animate-in fade-in-0 delay-150 duration-1000 fill-mode-both">
           <Image
             src={logo.src}
-            alt="Logo ADM"
+            alt="Logo MDA"
             fill
             className="object-contain"
           />
