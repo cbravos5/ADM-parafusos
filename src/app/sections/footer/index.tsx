@@ -36,16 +36,16 @@ export function Footer() {
           <li>
             <LinkIcon
               Icon={<InstagramIcon className="w-6 h-6" />}
-              text="@mda.parafusos"
-              href="https://www.instagram.com/mda.parafusos"
+              text="@mdaparafusos"
+              href="https://www.instagram.com/mdaparafusos"
               target="_blank"
             />
           </li>
           <li>
             <LinkIcon
               Icon={<MailIcon className="w-6 h-6" />}
-              text="mdaparafusos@terra.com.br"
-              href="mailto:mdaparafusos@terra.com.br"
+              text="mdaparafusos@gmail.com"
+              href="mailto:mdaparafusos@gmail.com"
               target="_blank"
             />
           </li>
